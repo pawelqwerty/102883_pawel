@@ -1,6 +1,6 @@
 
-def dodawanie():
-    return('wynik: ',a+b)
+def dodawanie(a, b):
+    return a+b
 
 
 print('Podaj pierwsza liczbe')
@@ -9,4 +9,4 @@ print('Podaj druga liczbe')
 b = int(input())
 
 
-dodawanie()
+print(dodawanie(a, b))
